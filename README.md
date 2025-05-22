@@ -14,7 +14,7 @@ Dm7080
 https://www.mediafire.com/folder/5cmni3i0rch9e/BlackHole-DM7080
 
 DM920
-https://www.mediafire.com/folder/5cmni3i0rch9e/BlackHole-DM7080
+https://www.mediafire.com/folder/cdmen9tqtpwxk/BlackHole-DM920
 
 --------------------
 
