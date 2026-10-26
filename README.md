@@ -16,6 +16,9 @@ https://www.mediafire.com/folder/5cmni3i0rch9e/BlackHole-DM7080
 DM920
 https://www.mediafire.com/folder/cdmen9tqtpwxk/BlackHole-DM920
 
+DreamTwo
+https://www.mediafire.com/folder/yx295tx6vgp8c/BlackHole-DreamTwo
+
 --------------------
 
 Download image links for OpenTSiamge
@@ -29,3 +32,6 @@ https://www.mediafire.com/folder/tb1x6tmtglyw4/OpenTSimage-DM7080
 
 DM920
 https://www.mediafire.com/folder/sbrjw60if73re/OpenTSimage-DM920
+
+DreamTwo
+https://www.mediafire.com/folder/wik2i04d3e5zu/OpenTSimage-DreamTwo
