@@ -1,0 +1,177 @@
+Package: base-files-doc
+Version: ts12-r0
+Section: doc
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e3b55e6d7e0234be117854dae9ac82d
+Size: 766
+Filename: base-files-doc_ts12-r0_dm7080.ipk
+Source: base-files_3.0.14.bb
+Description:  Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+
+Package: base-files
+Version: ts12-r0
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 968a770354897e37d67421bd308b1ccb
+Size: 3868
+Filename: base-files_ts12-r0_dm7080.ipk
+Source: base-files_3.0.14.bb
+Description:  Miscellaneous files for the base system
+OE: base-files
+License: GPL-2.0-only
+Priority: optional
+
+
+Package: enigma-info
+Version: 12.6-r0
+Replaces: enigma-kernel-module
+Conflicts: enigma-kernel-module
+Section: base
+Architecture: dm7080
+Maintainer: oe-alliance team
+MD5Sum: 6557a1e878e710ca13a8a0f03c5d7dc7
+Size: 1336
+Filename: enigma-info_12.6-r0_dm7080.ipk
+Source: enigma-info.bb
+Description:  enigma.info used by BoxInfo
+OE: enigma-info
+License: GPL-2.0-or-later
+Priority: required
+
+
+Package: enigma2
+Version: 3.14+git23843+ae989160+ae989169c6-r0
+Depends: alsa-conf, bzip2, dhrystone, enigma-info, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-plugin-systemplugins-transcodingsettings, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.8), libatomic1 (>= 16.2.0), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray (>= v1.4.0+git3077+7121a000+7121a00c53), libc6 (>= 2.44+git0+34106fee69), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.0.3), libcurl4 (>= 8.23.0), libdreamdvd0 (>= 1.1+git231+add05eb0+add05ebc35), libdvbcsa, libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.15.0), libfribidi0 (>= 1.0.17), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.90.0), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.8), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.59), libpython3.14-1.0 (>= 3.14.9), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.0.3), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libwebp (>= 1.6.0), libxml2 (>= 2.15.4), opents-branding, python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-puremagic, python3-pyusb, python3-shell, python3-simplejson, python3-six, python3-threading, python3-trio, python3-twisted, python3-twisted-core, python3-urllib3, python3-wifi, python3-xml, python3-zopeinterface, rsync, streambench, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink, wireless-tools, wpa-supplicant
+Provides: enigma2-plugin-systemplugins-networkbrowser, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-videomode, enigma2-plugin-systemplugins-wirelesslan
+Replaces: enigma2-plugin-pli-softcamsetup, enigma2-plugin-systemplugins-networkbrowser, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-videomode, enigma2-plugin-systemplugins-wirelesslan
+Conflicts: enigma2-plugin-pli-softcamsetup, enigma2-plugin-systemplugins-networkbrowser, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-videomode, enigma2-plugin-systemplugins-wirelesslan
+Recommends: enigma2-plugin-systemplugins-bluetoothsetup, glibc-gconv-utf-16, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: b6fee19f215ec16aaa20382f2146c08b
+Size: 12646964
+Filename: enigma2_3.14+git23843+ae989160+ae989169c6-r0_dm7080.ipk
+Source: enigma2.bb
+Description:  GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPL-2.0-only
+Priority: optional
+
+
+Package: opents-branding-src
+Version: git1171+84e88a30+84e88a388f-r0
+Section: devel
+Architecture: dm7080
+Maintainer: oe-alliance team
+MD5Sum: 54f01e16cc60e01bca345cf0fa83f9da
+Size: 13876
+Filename: opents-branding-src_git1171+84e88a30+84e88a388f-r0_dm7080.ipk
+Source: opents-branding.bb
+Description:  opents-branding version git-r0 - Source files
+OE: opents-branding
+License: GPL-2.0-or-later
+Priority: optional
+
+
+Package: opents-branding
+Version: git1171+84e88a30+84e88a388f-r0
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Section: base
+Architecture: dm7080
+Maintainer: oe-alliance team
+MD5Sum: 537692e44def42767cf30fe8ca1153aa
+Size: 216340
+Filename: opents-branding_git1171+84e88a30+84e88a388f-r0_dm7080.ipk
+Source: opents-branding.bb
+Description:  opents-branding version git-r0
+OE: opents-branding
+License: GPL-2.0-or-later
+Priority: optional
+
+
+Package: tsimage-bootlogo
+Version: 12.6-r0
+Depends: showiframe
+Recommends: update-rc.d
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 9472eca44d2ff02a29327d915028bb53
+Size: 474698
+Filename: tsimage-bootlogo_12.6-r0_dm7080.ipk
+Source: tsimage-bootlogo.bb
+Description:  tsimage-bootlogo version 12.6-r0
+OE: tsimage-bootlogo
+License: CC-BY-NC-ND-4.0
+Priority: required
+
+
+Package: tsimage-feed-config
+Version: 12.6-r0
+Section: base
+Architecture: dm7080
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4f98a2643ef3d56155df3effecb45058
+Size: 882
+Filename: tsimage-feed-config_12.6-r0_dm7080.ipk
+Source: tsimage-feed-config.bb
+Description:  Configuration files for OpenTSimage secret feeds
+OE: tsimage-feed-config
+License: GPL-2.0-or-later
+Priority: optional
+
+
+Package: tsimagebase
+Version: 12.6-r0
+Depends: bash
+Section: base
+Architecture: mips32el
+Maintainer: RAED
+MD5Sum: a0b6091d823a36898e918cedb75af92a
+Size: 780
+Filename: tsimagebase_12.6-r0_mips32el.ipk
+Source: tsimagebase.bb
+Description:  tsimagebase version 12.6-r0
+OE: tsimagebase
+License: GPL-2.0-or-later
+Priority: required
+
+
+Package: tsmetrixhd
+Version: 12.6-r0
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: ad098a906335dc15a89d8442e6f75e00
+Size: 23165100
+Filename: tsmetrixhd_12.6-r0_dm7080.ipk
+Source: tsmetrixhd.bb
+Description:  TS-MetrixHD for OpenTsimage
+OE: tsmetrixhd
+License: GPL-2.0-or-later
+Priority: required
+
+
+Package: tspanel
+Version: 12.6-r0
+Depends: bash, python3
+Section: base
+Architecture: dm7080
+Maintainer: RAED
+MD5Sum: 230200175e6c12dd6b52f9034a27c1e2
+Size: 1605620
+Filename: tspanel_12.6-r0_dm7080.ipk
+Source: tspanel.bb
+Description:  tspanel version 12.6-r0
+OE: tspanel
+License: GPL-2.0-or-later
+Priority: required
+
+
